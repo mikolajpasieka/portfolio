@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Python test / coverage
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Deployment files (optional)
+*.egg-info/
+dist/
+build/
+
+# Render-specific (optional)
+render.yaml
